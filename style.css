@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #FEFAEF !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    width: 800px;
+    height: 450px;
+    border-radius: 15px;
+    display: flex;
+}
+
+.navbar {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #27355C;
+    padding: 26px;
+    width: 180px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    justify-content: start !important;
+}
+
+.question-theme img {
+    height: 80px;
+}
+
+.topics {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 25px;
+    color: white;
+    font-size: 20px;
+}
+
+.quiz-container {
+    background-image: url("./img/brainbg.jpg");
+    background-size: cover;
+    width: 620px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.headline {
+    text-align: center;
+    align-items: center;
+    margin-top: 130px;
+    font-weight: bold;
+}
+
+.headline p {
+    font-size: 20px;
+}
+
+.start-button {
+    display: flex;
+    justify-content: end;
+}
+
+.start-button button {
+    background-color: #FF4E13;
+    color: white;
+    padding: 5px 40px;
+    margin-bottom: 25px;
+    margin-right: 40px;
+}
+
+.none {
+    display: none;
+}
+
+.question-container {
+    padding: 10px 100px;
+}
+
+.question-container h3 {
+    margin-top: 16px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-weight: bold;
+}
+
+.letter {
+    background-color: #D6D6D6;
+    padding: 9px 15px;
+    margin-left: 9px;
+    margin-right: 30px;
+    border-radius: 4px;
+}
+
+.quiz-answer-card:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.next-question {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.next-question img:hover {
+    background-color: lightgray;
+    padding: 4px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.bg-success, .bg-danger {
+    color: white !important;
+}
+
+.btn {
+    background-color: #FF4E13 !important;
+    color: white !important;
+}
+
+.end-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 110px;
+}
+
+.end-screen img {
+    height: 130px;
+}
+
+.end-screen p {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+
+
+
